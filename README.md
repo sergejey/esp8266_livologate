@@ -11,11 +11,11 @@ MQTT can be configured to report status.
 
 Usage: HTTP GET requests to send Livolo buttons commands
 
-http://<IP>/rfkey?button=<BUTTON_NUM 1-10>&remote=<REMOTE_ID>
+http://IP_ADDRESS/rfkey?button=BUTTON_NUM_1-10&remote=REMOTE_ID
 
 Example:
-http://<IP>/rfkey?button=1&remote=8500
-http://<IP>/rfkey?button=2&remote=8500
+http://IP_ADDRESS/rfkey?button=1&remote=8500
+http://IP_ADDRESS/rfkey?button=2&remote=8500
 
 All off command:
-http://<IP>/rfkey?button=off&remote=8500
+http://IP_ADDRESS/rfkey?button=off&remote=8500
